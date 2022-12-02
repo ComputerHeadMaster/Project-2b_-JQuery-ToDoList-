@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: grey;
+    font-family: sans-serif;
+  }
+  ul {
+    list-style-type: none; 
+  }
+  ul li:hover {
+    background: #ddd;
+  }
+  .boksi {
+    width: 40%;
+    top: 10%;
+    max-width: 490px;
+    min-width: 410px;
+    min-height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(243, 243, 243);
+    position: absolute;
+    padding: 30px 20px;
+  }
+  .roksi{
+    width: 40%;
+    top: 30%;
+    
+    max-width: 490px;
+    min-width: 410px;
+    min-height: 100px;
+    border-radius: 10px;
+    flex-direction: column;
+    background: rgb(243, 243, 243);
+    position: absolute;
+    padding: 30px 20px;
+    margin-top: 60px;
+  }
+.ohje {
+    max-width: 490px;
+    min-width: 400px;
+    min-height: 100px;
+    padding: 30px 20px;
+    margin-top: 110px;
+    display: block;
+    border-radius: 10px;
+    align-items: center;
+    background: rgb(243, 243, 243);
+    position: absolute;
+}
+
+  .tehtava {
+    
+    margin: 40px 0px;
+}
+  .input {
+    width: 250px;
+    border: 2px solid #d1d3d4;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  .nappi {
+    cursor: pointer;
+    background-color: #686868;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+  }
+  .nappi:hover {
+    cursor: pointer;
+    background-color: #57af24;
+    color: #fff;
+  }
+  .poistaKaikki {
+    cursor: pointer;
+    background-color: #686868;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+   
+  }
+  .poistaKaikki:hover {
+    cursor: pointer;
+    background-color: #600000;
+    color: #fff;;
+  }
+  .katsoOhje {
+    cursor: pointer;
+    background-color: #686868;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+  .katsoOhje:hover {
+    cursor: pointer;
+    background-color: #3d3d3d;
+    color: #fff;
+  }
+  .piillotaOhje {
+    cursor: pointer;
+    background-color: #686868;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+  .piillotaOhje:hover {
+    cursor: pointer;
+    background-color: #3d3d3d;
+    color: #fff;
+  }
+  .lista {
+    min-width: 350px;
+  
+  }
+  .tavara{
+    background-color: #fff;
+    padding: 15px;
+    font-size: 1.2rem;
+  }.tavara:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }.tavara:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+  }
+  .checkbox {
+    margin-right: 10px;
+}
+.poista {
+    float: right;
+    color: #686868;
+    background-color:  rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 4px 9px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+  }
+  .poista:hover {
+    background-color: #600000;
+    color: #fff;
+  }
+  input[type="checkbox"] { 
+    width: 30px; 
+  }
+  .completed { 
+    text-decoration: line-through;
+    background: #888;
+    color: #fff;
+   }
+   .completed:hover  { 
+    background: #888;
+  }
